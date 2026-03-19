@@ -9,10 +9,12 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
+- Nome: Rodrigo Lage da Costa
+- Matricula: 907987
+- Proposta de projeto escolhida: A ideia é ser um projeto sobre viagens, sendo a Entidade Primaria: Vibes de Viagem (Museus, Praias, Festas, Aventura...) e Entidade Secundaria: Lugares (Ouro Preto, Caraiva, Floripa, Interlaken...).
+
 - Breve descrição sobre seu projeto:
+The Simple Trip (nome do site_ é uma ferramenta de planejamento de viagens, construída para brasileiros que querem viajar bem, mas sentem que o processo é confuso ou intimidador.
 
 
 ## Print do(s) wireframe(s) criado
@@ -20,7 +22,7 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 <<  COLOQUE A IMAGEM AQUI >>
 
-
+![Wireframe_PaginaWeb](images/image.png)
 
 ## Print da home-page criada
 
