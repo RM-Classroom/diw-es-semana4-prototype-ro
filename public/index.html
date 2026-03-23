@@ -11,16 +11,26 @@
         <div class="logo">
             <img src="logo.svg" class="logo-image">
         </div>
+
+        <div class="search">
+            <input type="text" placeholder="Buscar destino...">
+            <button>Buscar</button>
+        </div>
+
         <ul>
             <li><a href="#">Destinos</a></li>
             <li><a href="#">Roteiro</a></li>
             <li><a href="#">Guias</a></li>
             <li><a href="#">Sobre</a></li>
         </ul>
+
+        <button class="login">Entrar</button>
     </nav>
 
+<main>
     <!-- Hero Section -->
-    <section class="hero">
+    <article>
+        <section class="hero">
         <div class="hero-image-container">
             <img src="image_1.png" class="hero-image">
             <span class="hero-label">Destino em destaque</span>
@@ -32,95 +42,112 @@
             <h1>Planeje sua viagem de forma simples e eficiente</h1>
             <p>Descubra destinos incríveis, crie roteiros personalizados e aproveite ao máximo suas viagens com o The Simple Trip.</p>
             <a href="#" class="button">Começar a planejar</a>
+            <div class="hero-search">
+            <input type="text" placeholder="Buscar roteiro...">
+            <button>Buscar</button>
+            </div>
         </div>
-    </section>
+        </section>
+    </article>
+
 
     <!-- Gallery Section -->
-    <section class="gallery">
-        <div class="section-header">
-            <span class="section-label">Destinos em alta</span>
-            <a href="#">Ver todos</a>
-        </div>
+    <article>
+        <section class="gallery">
+            <div class="section-header">
+                <span class="section-label">Destinos em alta</span>
+                <a href="#">Ver todos</a>
+            </div>
 
-        <div class="gallery-grid">
-            <div class="gallery-card">
-                <span class="card-label">Histórico</span>
-                <img src="image_g1.png" class="gallery-image">
-                <h3>Roma, Itália</h3>
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <span class="card-label">Histórico</span>
+                    <img src="image_g1.png" class="gallery-image">
+                    <h3>Roma, Itália</h3>
+                </div>
+                <div class="gallery-card">
+                    <span class="card-label">Urbano</span>
+                    <img src="image_g2.png" class="gallery-image">
+                    <h3>Londres, Reino Unido</h3>
+                </div>
+                <div class="gallery-card">
+                    <span class="card-label">Natureza</span>
+                    <img src="image_g3.png" class="gallery-image">
+                    <h3>Patagônia, Argentina</h3>
+                </div>
             </div>
-            <div class="gallery-card">
-                <span class="card-label">Urbano</span>
-                <img src="image_g2.png" class="gallery-image">
-                <h3>Londres, Reino Unido</h3>
-            </div>
-            <div class="gallery-card">
-                <span class="card-label">Natureza</span>
-                <img src="image_g3.png" class="gallery-image">
-                <h3>Patagônia, Argentina</h3>
-            </div>
-        </div>
-    </section>
+        </section>
+    </article>
 
     <!-- Trip Types Section -->
-    <section class="trip-types">
+    </article>
+        <section class="trip-types">
 
-        <span class="section-label">Tipos de viagem</span>
+            <span class="section-label">Tipos de viagem</span>
 
-        <div class="trip-grid">
+            <div class="trip-grid">
 
-            <div class="trip-column">
-                <div class="column-header">
-                <div>
-                    <h3>Histórico</h3>
-                    <span class="section-label">Patrimônio & cultura</span>
+                <div class="trip-column">
+                    <div class="column-header">
+                    <div>
+                        <h3>Histórico</h3>
+                        <span class="section-label">Patrimônio & cultura</span>
+                    </div>
+                    </div>
+                    <ul>
+                    <div class="column-element"><div class="column-icon-historical"></div><li>Roma</li></div>
+                    <div class="column-element"><div class="column-icon-historical"></div><li>Atenas</li></div>
+                    <div class="column-element"><div class="column-icon-historical"></div><li>Cairo</li></div>
+                    <div class="column-element"><div class="column-icon-historical"></div><li>Cusco</li></div>
+                    <div class="column-element"><div class="column-icon-historical"></div><li>Istambul</li></div>
+                    </ul>
                 </div>
+
+                <div class="trip-column">
+                    <div class="column-header">
+                    <div class="column-icon"></div>
+                    <div>
+                        <h3>Urbano</h3>
+                        <span class="section-label">Cidades & experiências</span>
+                    </div>
+                    </div>
+                    <ul>
+                    <div class="column-element"><div class="column-icon-urban"></div><li>Tóquio</li></div>
+                    <div class="column-element"><div class="column-icon-urban"></div><li>Nova York</li></div>
+                    <div class="column-element"><div class="column-icon-urban"></div><li>Berlim</li></div>
+                    <div class="column-element"><div class="column-icon-urban"></div><li>Barcelona</li></div>
+                    <div class="column-element"><div class="column-icon-urban"></div><li>Cidade do México</li></div>
+                    </ul>
                 </div>
-                <ul>
-                <div class="column-element"><div class="column-icon-historical"></div><li>Roma</li></div>
-                <div class="column-element"><div class="column-icon-historical"></div><li>Atenas</li></div>
-                <div class="column-element"><div class="column-icon-historical"></div><li>Cairo</li></div>
-                <div class="column-element"><div class="column-icon-historical"></div><li>Cusco</li></div>
-                <div class="column-element"><div class="column-icon-historical"></div><li>Istambul</li></div>
-                </ul>
+
+                <div class="trip-column">
+                    <div class="column-header">
+                    <div class="column-icon"></div>
+                    <div>
+                        <h3>Natureza</h3>
+                        <span class="section-label">Paisagens & aventura</span>
+                    </div>
+                    </div>
+                    <ul>
+                    <div class="column-element"><div class="column-icon-nature"></div><li>Patagônia</li></div>
+                    <div class="column-element"><div class="column-icon-nature"></div><li>Islândia</li></div>
+                    <div class="column-element"><div class="column-icon-nature"></div><li>Costa Rica</li></div>
+                    <div class="column-element"><div class="column-icon-nature"></div><li>Serengeti</li></div>
+                    <div class="column-element"><div class="column-icon-nature"></div><li>Nova Zelândia</li></div>
+                    </ul>
+                </div>
+
             </div>
 
-            <div class="trip-column">
-                <div class="column-header">
-                <div class="column-icon"></div>
-                <div>
-                    <h3>Urbano</h3>
-                    <span class="section-label">Cidades & experiências</span>
-                </div>
-                </div>
-                <ul>
-                <div class="column-element"><div class="column-icon-urban"></div><li>Tóquio</li></div>
-                <div class="column-element"><div class="column-icon-urban"></div><li>Nova York</li></div>
-                <div class="column-element"><div class="column-icon-urban"></div><li>Berlim</li></div>
-                <div class="column-element"><div class="column-icon-urban"></div><li>Barcelona</li></div>
-                <div class="column-element"><div class="column-icon-urban"></div><li>Cidade do México</li></div>
-                </ul>
-            </div>
+        </section>
+    </article>
+</main>
 
-            <div class="trip-column">
-                <div class="column-header">
-                <div class="column-icon"></div>
-                <div>
-                    <h3>Natureza</h3>
-                    <span class="section-label">Paisagens & aventura</span>
-                </div>
-                </div>
-                <ul>
-                <div class="column-element"><div class="column-icon-nature"></div><li>Patagônia</li></div>
-                <div class="column-element"><div class="column-icon-nature"></div><li>Islândia</li></div>
-                <div class="column-element"><div class="column-icon-nature"></div><li>Costa Rica</li></div>
-                <div class="column-element"><div class="column-icon-nature"></div><li>Serengeti</li></div>
-                <div class="column-element"><div class="column-icon-nature"></div><li>Nova Zelândia</li></div>
-                </ul>
-            </div>
-
-        </div>
-
+<footer>
+  <section class="footer-content">
+    <p>© 2025 The Simple Trip. Todos os direitos reservados.</p>
   </section>
+</footer>
 
 </body>
 </html>

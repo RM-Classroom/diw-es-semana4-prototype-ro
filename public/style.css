@@ -18,6 +18,10 @@ nav {
   border-bottom: 1px solid #C9B99A;
 }
 
+.logo {
+  position: relative;
+}
+
 .logo-image {
   width: 120px;
 }
@@ -35,6 +39,37 @@ nav a{
   border: 1px solid #2D3142;
   border-radius: 8px;
   color: #2D3142;
+}
+
+.search {
+  display: flex;
+  gap: 8px;
+}
+
+.search input {
+  padding: 8px 16px;
+  border: 1px solid #2D3142;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #2D3142;
+}
+
+.search button {
+  padding: 8px 16px;
+  border: 1px solid #2D3142;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #2D3142;
+  cursor: pointer;
+}
+
+.login {
+  padding: 8px 16px;
+  border: 1px solid #2D3142;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #2D3142;
+  cursor: pointer;
 }
 
 /* Hero Section */
@@ -86,6 +121,21 @@ nav a{
   border: 1px solid #2D3142;
   border-radius: 8px;
   color: #2D3142;
+}
+
+.hero-search {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.hero-search input,
+.hero-search button {
+  padding: 8px 16px;
+  border: 1px solid #2D3142;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 /* Gallery Section */
@@ -194,4 +244,17 @@ margin-bottom: 20px;
     border: 1px solid hsl(0, 0%, 13%);
     border-radius: 8px;
     padding: 1rem;
+}
+
+/* Footer */
+footer{
+  margin-top: 20px;
+  background-color: #2D3142;
+  color: #F2F0EB;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }

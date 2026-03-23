@@ -27,3 +27,5 @@ The Simple Trip (nome do site_ é uma ferramenta de planejamento de viagens, con
 ## Print da home-page criada
 
 <<  COLOQUE A IMAGEM AQUI >>
+
+![Homepage_PaginaWeb](images/homepage-image.png)
