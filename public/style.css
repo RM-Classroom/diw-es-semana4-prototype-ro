@@ -27,6 +27,16 @@ nav ul {
   list-style: none;
   gap: 8px;
 }
+
+nav a{
+  border-radius: 8px;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #2D3142;
+  border-radius: 8px;
+  color: #2D3142;
+}
+
 /* Hero Section */
 
 .hero {
@@ -56,7 +66,6 @@ nav ul {
     padding: 5px 10px;
     width: 400px;
     border-radius: 4px;
-
 }
 
 .hero h2{ 
@@ -65,12 +74,34 @@ nav ul {
     width: 400px;
 }
 
+.hero-text p{
+  margin-bottom: 20px;
+}
+
+.hero-text .button{
+  margin-top: 20px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #2D3142;
+  border-radius: 8px;
+  color: #2D3142;
+}
+
 /* Gallery Section */
 
 .gallery{
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+.gallery a{
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #2D3142;
+  border-radius: 8px;
+  color: #2D3142;
 }
 
 .gallery-grid{
@@ -82,11 +113,13 @@ nav ul {
 
 .section-label{
   font-family: 'DM Mono', monospace;
-  margin-bottom: 20px;
 }
+
 .section-header{
 display: flex;
+align-items: center;
 justify-content: space-between;
+margin-bottom: 20px;
 }
 
 .gallery-card{
